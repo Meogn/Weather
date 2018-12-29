@@ -118,6 +118,7 @@ public class WeatherActivity extends AppCompatActivity {
             requestWeather(mWeatherId);
 //            requestWeather(weatherId);
 //        }
+        //下拉刷新
         swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
